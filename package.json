@@ -1,0 +1,14 @@
+{
+  "name": "notesjs",
+  "version": "1.0.0",
+  "description": "notes simple app",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ilyasse Badreddine MAHLA",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0"
+  }
+}

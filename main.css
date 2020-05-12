@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ecf0f1;
+}
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+/* Add Form */
+
+.add-form {
+    position: relative;
+    display: flex;
+}
+
+.add-form input {
+    flex: 1;
+    font-size: 18px;
+    height: 50px;
+    padding: 0px 60px 0px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.add-form button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 20px;
+    line-height: 35px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #27ae60;
+}
+
+/* Notes */
+
+.notes .note {
+    display: flex;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.notes .note p {
+    flex: 1;
+    font-size: 18px;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+.notes .note .delete {
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #e74c3c;
+    background-color:#dadedf;
+}
